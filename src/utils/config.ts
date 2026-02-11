@@ -31,4 +31,7 @@ export const config: ConfigType = {
     prefix: process.env['BOT_PREFIX'] ?? '!',
     isDevelopment: process.env['NODE_ENV'] === 'development',
   },
+  edenAI: {
+    apiKey: process.env['EDEN_API_KEY'] ?? undefined,
+  },
 };

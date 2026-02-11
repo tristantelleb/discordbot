@@ -87,6 +87,9 @@ export interface ConfigType {
     prefix: string;
     isDevelopment: boolean;
   };
+  edenAI: {
+    apiKey?: string;
+  };
 }
 
 export interface ValidationResult {
