@@ -1,4 +1,26 @@
-# Discord Bot Template (TypeScript)
+# Bot Discord Générateur d'image (TypeScript)
+
+Test des fonctionnalités d'EdenAI, comparaison des différents modèles disponibles et choix du plus fiable et du moins cher.
+
+## Fonctionnalités
+
+```bash
+/generation
+```
+- Appel de la PokeAPI pour récupérer un Pokémon de la première génération.
+
+- Appel d'un LLM avec EdenAI pour ajouter un contexte de lieu.
+
+- Appel du service bytedance/seedream-3-0-t2i-250415 avec EdenAI pour la création d'une image avec le lieu et le Pokémon.
+
+## Futures améliorations
+
+- Création d'un masque pour conserver le design original du Pokémon (Inpainting/ControlNet).
+
+- Automatisation du bot via une tâche Cron (tous les jours à 9h00).
+
+
+# [FORKED] Discord Bot Template (TypeScript)
 
 A comprehensive Discord bot template built with TypeScript and Discord.js v14, featuring advanced type safety, modern development practices, CI/CD, testing, and a robust error handling system.
 
@@ -339,3 +361,4 @@ NODE_ENV=production npm start
 ## License
 
 MIT
+
